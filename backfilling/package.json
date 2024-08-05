@@ -1,0 +1,12 @@
+{
+    "name": "dynamodb-stream-processor",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Lambda function to process DynamoDB streams and scan table",
+    "main": "index.js",
+    "dependencies": {
+        "aws-sdk": "^2.1666.0",
+        "axios": "^1.7.3",
+        "node-customer.io": "^0.0.2"
+    }
+}
